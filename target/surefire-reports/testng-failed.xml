@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Practice]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ISuiteListenerImpl"/>
+    <listener class-name="listeners.ITestListenerImpl"/>
+    <listener class-name="listeners.IAnnotationTransformerImpl"/>
+  </listeners>
+  <test thread-count="4" parallel="methods" name="Demo Test 1(failed)" verbose="0">
+    <classes>
+      <class name="tests.Demo1Test">
+        <methods>
+          <include name="setTestNamesTobeRetried"/>
+          <include name="tearDown"/>
+          <include name="setTestName"/>
+          <include name="init"/>
+          <include name="navigateToTrelloPage" invocation-numbers="0"/>
+          <include name="afterSuiteMethod"/>
+          <include name="navigateToGitHubPage"/>
+        </methods>
+      </class> <!-- tests.Demo1Test -->
+    </classes>
+  </test> <!-- Demo Test 1(failed) -->
+  <test thread-count="4" parallel="methods" name="Demo Test 2(failed)" verbose="0">
+    <classes>
+      <class name="tests.Demo2Test">
+        <methods>
+          <include name="setTestNamesTobeRetried"/>
+          <include name="tearDown"/>
+          <include name="setTestName"/>
+          <include name="navigateToGooglePage"/>
+          <include name="init"/>
+          <include name="afterSuiteMethod"/>
+        </methods>
+      </class> <!-- tests.Demo2Test -->
+    </classes>
+  </test> <!-- Demo Test 2(failed) -->
+</suite> <!-- Failed suite [Practice] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Practice" parallel = "methods" thread-count = "4">
+ 	 <listeners>
+		<listener class-name = "listeners.ISuiteListenerImpl" />
+		<listener class-name = "listeners.ITestListenerImpl" />
+		<listener class-name = "listeners.IAnnotationTransformerImpl" />
+	</listeners>  
+	<test name="Demo Test 1">
+		<classes>
+			<class name="tests.Demo1Test" />
+		</classes>
+	</test>
+	<test name="Demo Test 2">
+		<classes>
+			<class name="tests.Demo2Test" />
+		</classes>
+	</test>  
+	<!-- <test name="test parallel with ItestContext">
+		<classes>
+		<class name ="practice.Practice1"/>
+		<class name ="practice.Practice2"/>
+		</classes>
+	</test> -->
+	<!--
+	<test name="Login with valid inputs">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+	  
+	 <test name="Login with invalid inputs">
+		<classes>
+			<class name="tests.LoginValidationsTest" />
+		</classes>
+	</test>
+	 --> 
+	</suite>  

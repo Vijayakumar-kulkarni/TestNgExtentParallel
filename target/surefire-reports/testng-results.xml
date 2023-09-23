@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="8" passed="2" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-23T13:52:06 IST" name="Practice" finished-at="2023-09-23T13:53:37 IST" duration-ms="90882">
+    <groups>
+    </groups>
+    <test started-at="2023-09-23T13:52:06 IST" name="Demo Test 1" finished-at="2023-09-23T13:52:55 IST" duration-ms="48542">
+      <class name="tests.Demo1Test">
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:06 IST" name="init" finished-at="2023-09-23T13:52:16 IST" duration-ms="9505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo1Test.navigateToGitHubPage()[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:06 IST" name="init" finished-at="2023-09-23T13:52:16 IST" duration-ms="9456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:16 IST" name="setTestName" finished-at="2023-09-23T13:52:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo1Test.navigateToTrelloPage(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44a2b17b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7a56812e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method retried="true" signature="navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:16 IST" name="navigateToTrelloPage" data-provider="demoDataProvider" finished-at="2023-09-23T13:52:27 IST" duration-ms="11237" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first_name1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.Demo1Test.navigateToTrelloPage(Demo1Test.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTrelloPage -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:16 IST" name="setTestName" finished-at="2023-09-23T13:52:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo1Test.navigateToGitHubPage()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44a2b17b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3dd69f5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="navigateToGitHubPage()[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:16 IST" name="navigateToGitHubPage" finished-at="2023-09-23T13:52:26 IST" duration-ms="9958" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SKIPPED DEMO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SKIPPED DEMO
+at tests.Demo1Test.navigateToGitHubPage(Demo1Test.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGitHubPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:26 IST" name="tearDown" finished-at="2023-09-23T13:52:26 IST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToGitHubPage status=SKIP method=Demo1Test.navigateToGitHubPage()[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:27 IST" name="tearDown" finished-at="2023-09-23T13:52:27 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToTrelloPage status=SKIP method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:27 IST" name="init" finished-at="2023-09-23T13:52:32 IST" duration-ms="4562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:32 IST" name="navigateToTrelloPage" data-provider="demoDataProvider" finished-at="2023-09-23T13:52:39 IST" duration-ms="7229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first_name1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTrelloPage -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:32 IST" name="setTestName" finished-at="2023-09-23T13:52:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo1Test.navigateToTrelloPage(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44a2b17b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7eb01b12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:40 IST" name="tearDown" finished-at="2023-09-23T13:52:40 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToTrelloPage status=SUCCESS method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:40 IST" name="init" finished-at="2023-09-23T13:52:45 IST" duration-ms="4371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:45 IST" name="setTestName" finished-at="2023-09-23T13:52:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo1Test.navigateToTrelloPage(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@44a2b17b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@61d9efe0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:45 IST" name="navigateToTrelloPage" data-provider="demoDataProvider" finished-at="2023-09-23T13:52:54 IST" duration-ms="9165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second_name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTrelloPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo1Test@2e3967ea]" started-at="2023-09-23T13:52:55 IST" name="tearDown" finished-at="2023-09-23T13:52:55 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToTrelloPage status=SUCCESS method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0, instance:tests.Demo1Test@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Demo1Test -->
+    </test> <!-- Demo Test 1 -->
+    <test started-at="2023-09-23T13:52:55 IST" name="Demo Test 2" finished-at="2023-09-23T13:53:37 IST" duration-ms="42298">
+      <class name="tests.Demo2Test">
+        <test-method is-config="true" signature="setTestNamesTobeRetried(org.testng.ITestContext)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:52:06 IST" name="setTestNamesTobeRetried" finished-at="2023-09-23T13:52:06 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4efc1b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestNamesTobeRetried -->
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:52:55 IST" name="init" finished-at="2023-09-23T13:53:02 IST" duration-ms="7233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method retried="true" signature="navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:02 IST" name="navigateToGooglePage" finished-at="2023-09-23T13:53:22 IST" duration-ms="19564" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.Demo2Test.navigateToGooglePage(Demo2Test.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGooglePage -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:02 IST" name="setTestName" finished-at="2023-09-23T13:53:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo2Test.navigateToGooglePage()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4efc1b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3aa3193a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:22 IST" name="tearDown" finished-at="2023-09-23T13:53:22 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToGooglePage status=SKIP method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init(org.testng.ITestResult)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:22 IST" name="init" finished-at="2023-09-23T13:53:25 IST" duration-ms="3634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:25 IST" name="navigateToGooglePage" finished-at="2023-09-23T13:53:37 IST" duration-ms="11390" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at tests.Demo2Test.navigateToGooglePage(Demo2Test.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGooglePage -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method,org.testng.ITestContext,[Ljava.lang.Object;)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:25 IST" name="setTestName" finished-at="2023-09-23T13:53:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Demo2Test.navigateToGooglePage()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4efc1b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3aa3193a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:37 IST" name="tearDown" finished-at="2023-09-23T13:53:37 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToGooglePage status=FAILURE method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests.Demo2Test@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuiteMethod(org.testng.ITestContext)[pri:0, instance:tests.Demo2Test@2a265ea9]" started-at="2023-09-23T13:53:37 IST" name="afterSuiteMethod" finished-at="2023-09-23T13:53:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e4efc1b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- tests.Demo2Test -->
+    </test> <!-- Demo Test 2 -->
+  </suite> <!-- Practice -->
+</testng-results>

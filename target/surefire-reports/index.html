@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Practice" class="navigator-link">
+              <span class="suite-name border-failed">Practice</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Practice" class="navigator-link ">
+                    <span>E:\WORK SPACE\TestngFW\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Practice" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Practice" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Practice" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Practice" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Practice" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Practice" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  3 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Practice" class="hide-methods failed suite-Practice"> (hide)</a> <!-- hide-methods failed suite-Practice -->
+                      <a href="#" panel-name="suite-Practice" class="show-methods failed suite-Practice"> (show)</a> <!-- show-methods failed suite-Practice -->
+                    </span>
+                    <div class="method-list-content failed suite-Practice">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo2Test" class="method navigator-link" hash-for-method="navigateToGooglePage">navigateToGooglePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Practice -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Practice" class="hide-methods skipped suite-Practice"> (hide)</a> <!-- hide-methods skipped suite-Practice -->
+                      <a href="#" panel-name="suite-Practice" class="show-methods skipped suite-Practice"> (show)</a> <!-- show-methods skipped suite-Practice -->
+                    </span>
+                    <div class="method-list-content skipped suite-Practice">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo1Test" class="method navigator-link" hash-for-method="navigateToGitHubPage">navigateToGitHubPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Practice -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Practice" class="hide-methods skipped suite-Practice"> (hide)</a> <!-- hide-methods skipped suite-Practice -->
+                      <a href="#" panel-name="suite-Practice" class="show-methods skipped suite-Practice"> (show)</a> <!-- show-methods skipped suite-Practice -->
+                    </span>
+                    <div class="method-list-content skipped suite-Practice">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo2Test" class="method navigator-link" hash-for-method="navigateToGooglePage">navigateToGooglePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo1Test" class="method navigator-link" hash-for-method="navigateToTrelloPage(first_name1)">navigateToTrelloPage(first_name1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Practice -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Practice" class="hide-methods passed suite-Practice"> (hide)</a> <!-- hide-methods passed suite-Practice -->
+                      <a href="#" panel-name="suite-Practice" class="show-methods passed suite-Practice"> (show)</a> <!-- show-methods passed suite-Practice -->
+                    </span>
+                    <div class="method-list-content passed suite-Practice">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo1Test" class="method navigator-link" hash-for-method="navigateToTrelloPage(first_name1)">navigateToTrelloPage(first_name1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Practice" title="tests.Demo1Test" class="method navigator-link" hash-for-method="navigateToTrelloPage(Second_name)">navigateToTrelloPage(Second_name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Practice -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Practice" class="panel Practice">
+          <div class="suite-Practice-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Demo2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToGooglePage">
+                  </a> <!-- navigateToGooglePage -->
+                  <span class="method-name">navigateToGooglePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.Demo2Test.navigateToGooglePage(Demo2Test.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice-class-failed -->
+          <div class="suite-Practice-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.Demo2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToGooglePage">
+                  </a> <!-- navigateToGooglePage -->
+                  <span class="method-name">navigateToGooglePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.Demo2Test.navigateToGooglePage(Demo2Test.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice-class-skipped -->
+          <div class="suite-Practice-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.Demo1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToGitHubPage">
+                  </a> <!-- navigateToGitHubPage -->
+                  <span class="method-name">navigateToGitHubPage</span>
+                  <div class="stack-trace">org.testng.SkipException: SKIPPED DEMO
+	at tests.Demo1Test.navigateToGitHubPage(Demo1Test.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToTrelloPage(first_name1)">
+                  </a> <!-- navigateToTrelloPage(first_name1) -->
+                  <span class="method-name">navigateToTrelloPage</span>
+                  <span class="parameters">(first_name1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.Demo1Test.navigateToTrelloPage(Demo1Test.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice-class-skipped -->
+          <div class="suite-Practice-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Demo1Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToTrelloPage(first_name1)">
+                  </a> <!-- navigateToTrelloPage(first_name1) -->
+                  <span class="method-name">navigateToTrelloPage</span>
+                  <span class="parameters">(first_name1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToTrelloPage(Second_name)">
+                  </a> <!-- navigateToTrelloPage(Second_name) -->
+                  <span class="method-name">navigateToTrelloPage</span>
+                  <span class="parameters">(Second_name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice-class-passed -->
+        </div> <!-- panel Practice -->
+        <div panel-name="test-xml-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\WORK SPACE\TestngFW\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Practice&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.ISuiteListenerImpl&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.ITestListenerImpl&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.IAnnotationTransformerImpl&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Demo Test 1&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Demo1Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Demo Test 1 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Demo Test 2&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Demo2Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Demo Test 2 --&gt;
+&lt;/suite&gt; &lt;!-- Practice --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Demo Test 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Demo Test 2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Practice');
+function tableData_Practice() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'navigateToGooglePage')
+data.setCell(0, 2, 'tests.Demo2Test')
+data.setCell(0, 3, 19564);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'navigateToGooglePage')
+data.setCell(1, 2, 'tests.Demo2Test')
+data.setCell(1, 3, 11390);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateToTrelloPage')
+data.setCell(2, 2, 'tests.Demo1Test')
+data.setCell(2, 3, 11237);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateToGitHubPage')
+data.setCell(3, 2, 'tests.Demo1Test')
+data.setCell(3, 3, 9958);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToTrelloPage')
+data.setCell(4, 2, 'tests.Demo1Test')
+data.setCell(4, 3, 9165);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateToTrelloPage')
+data.setCell(5, 2, 'tests.Demo1Test')
+data.setCell(5, 3, 7229);
+window.suiteTableData['Practice']= { tableData: data, tableDiv: 'times-div-Practice'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Practice">
+              </div> <!-- times-div-Practice -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Practice</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Demo2Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">navigateToTestNGPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Demo1Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">navigateCucumberWebSite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Practice" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Demo2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setTestNamesTobeRetried(org.testng.TestRunner@4e4efc1b)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Demo1Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo1Test.navigateToGitHubPage()[pri:0, instance:tests...)</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0...)</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo1Test.navigateToTrelloPage(java.lang.String), org.testng.TestRunner@44a2b17b, ...)</span>
+                <span class="method-start">9514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToTrelloPage(first_name1)</span>
+                <span class="method-start">9516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo1Test.navigateToGitHubPage(), org.testng.TestRunner@44a2b17b, [])</span>
+                <span class="method-start">9560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToGitHubPage</span>
+                <span class="method-start">9560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToGitHubPage status=SKIP method=Demo1Test.navigateToGitHubPage()[pri:0, ins...)</span>
+                <span class="method-start">19538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToTrelloPage status=SKIP method=Demo1Test.navigateToTrelloPage(java.lang.St...)</span>
+                <span class="method-start">20775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0...)</span>
+                <span class="method-start">20878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToTrelloPage(first_name1)</span>
+                <span class="method-start">25440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo1Test.navigateToTrelloPage(java.lang.String), org.testng.TestRunner@44a2b17b, ...)</span>
+                <span class="method-start">25440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToTrelloPage status=SUCCESS method=Demo1Test.navigateToTrelloPage(java.lang...)</span>
+                <span class="method-start">33862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo1Test.navigateToTrelloPage(java.lang.String)[pri:0...)</span>
+                <span class="method-start">33964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo1Test.navigateToTrelloPage(java.lang.String), org.testng.TestRunner@44a2b17b, ...)</span>
+                <span class="method-start">38336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToTrelloPage(Second_name)</span>
+                <span class="method-start">38336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToTrelloPage status=SUCCESS method=Demo1Test.navigateToTrelloPage(java.lang...)</span>
+                <span class="method-start">48457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Demo2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests...)</span>
+                <span class="method-start">48605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToGooglePage</span>
+                <span class="method-start">55839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo2Test.navigateToGooglePage(), org.testng.TestRunner@4e4efc1b, [])</span>
+                <span class="method-start">55839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToGooglePage status=SKIP method=Demo2Test.navigateToGooglePage()[pri:0, ins...)</span>
+                <span class="method-start">75405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">init([TestResult name={null} status=CREATED method=Demo2Test.navigateToGooglePage()[pri:0, instance:tests...)</span>
+                <span class="method-start">75506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToGooglePage</span>
+                <span class="method-start">79140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setTestName(public void tests.Demo2Test.navigateToGooglePage(), org.testng.TestRunner@4e4efc1b, [])</span>
+                <span class="method-start">79140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=navigateToGooglePage status=FAILURE method=Demo2Test.navigateToGooglePage()[pri:0, ...)</span>
+                <span class="method-start">90799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuiteMethod(org.testng.TestRunner@4e4efc1b)</span>
+                <span class="method-start">90917 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
